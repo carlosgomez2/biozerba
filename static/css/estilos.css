@@ -1,0 +1,100 @@
+/*COLORES HEX
+azul clarito: 42B3E5
+azul medio:   0384CE
+azul oscuro:  3156A3
+blanco:       F8F8F8
+gris oscuro:  262626*/
+
+/*Fuentes*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+html {
+  font-family: 'Open Sans', sans-serif; /* 1 */
+  font-size: 16px;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/*MENU*/
+.mainmenu{
+	background: white;
+	position: fixed;
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: lighter;
+	left: 0;
+	right: 0;	
+	top: 0;
+	line-height: 3.75em;
+	box-shadow: 0 0 0.1em 0.1em gray;
+}
+.mainmenu-list{
+	margin: 0;
+	padding: 0;
+
+}
+.mainmenu-item{
+	display: inline-block;
+}
+.mainmenu-itemLink{
+	width: 8em;
+	color: black;
+	text-decoration: none;
+	line-height: 4em;
+	margin-right: 0.1em;
+		
+		/* Efecto Fade */
+		display: inline-block;
+		vertical-align: middle;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-osx-font-smoothing: grayscale;
+		overflow: hidden;
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-webkit-transition-property: color, background-color;
+		transition-property: color, background-color;
+}
+.mainmenu-itemLink:hover, .Mainmenu-itemLink:focus, .Mainmenu-itemLink:active{
+	text-decoration: none;
+	background-color: #00DBFF;
+	color: blue;
+}
+/*CABECERA*/
+.header{
+	margin-top: 3.1em;
+	background-image: url('../img/portada.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 2em 0; 
+}
+.header-imageContainer{
+	margin-top: 1.3em;
+}
+/*TRATAMIENTOS*/
+.tratamientos{
+	text-align: center;
+}
+.subtitle{
+	text-align:left;
+	margin-left: 3em;
+	font-size: 1em;
+	font-weight: medium;
+}
+.tratamiento-item{
+	margin-top: 2em;
+	display: inline-block;
+	margin-right: 1em;
+	margin-left: 1em;	
+}
+.tratamiento-imageContainer{
+	margin: 0;
+}
+.tratamiento-descripcion{
+	font-size: 1em;
+	font-weight: lighter;
+}
